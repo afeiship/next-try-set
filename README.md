@@ -15,6 +15,7 @@ const res1 = nx.trySetGet(obj, 'name', 'feizheng');
 const res2 = nx.trySetGet(obj, 'github', 'afeiship');
 
 // results:
+
 // afei
 // afeiship
 ```
