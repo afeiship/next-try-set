@@ -3,7 +3,7 @@
  * description: Try to set value then return the value.
  * homepage: https://github.com/afeiship/next-try-set-get
  * version: 1.0.0
- * date: 2020-11-21 10:38:41
+ * date: 2020-11-21 10:40:12
  * license: MIT
  */
 
