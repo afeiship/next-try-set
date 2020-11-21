@@ -1,10 +1,10 @@
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.trySetGet = function (inTarget, inPath, inValue) {
     var value = nx.get(inTarget, inPath);
-    (value === undefined) && nx.set(inTarget, inPath, inValue)
+    value === undefined && nx.set(inTarget, inPath, inValue);
     return nx.get(inTarget, inPath);
   };
 
