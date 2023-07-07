@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-try-set",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Try to set value then return the value.",
   "homepage": "https://js.work",
   "author": {
@@ -43,5 +43,12 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  }
+  },
+  "keywords": [
+    "next",
+    "try",
+    "set",
+    "get",
+    "path"
+  ]
 }
